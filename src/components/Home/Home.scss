@@ -1,0 +1,204 @@
+body {
+  background-color: orange;
+  block-size:1920px 1080px;
+}
+
+.main-title {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:purple;
+  position:relative;
+  left: 1.5em; //this is causing page overflow
+  top: 1em;
+}
+
+.names-of-gum-row1 {
+  display: flex;
+}
+.banana-cherry-label {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:purple;
+  position:relative;
+  left: 3.25em; //this is causing page overflow
+  top: 2em;
+}
+.peppermint-lemon-label {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:purple;
+  position:relative;
+  left: 9.25em; //this is causing page overflow
+  top: 2em;
+}
+.raspberry-peppermint-label {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:purple;
+  position:relative;
+  left: 14.75em; //this is causing page overflow
+  top: 2em;
+}
+.bottle-images-row1 {
+  display: flex;
+  position: absolute;
+  top: 16.5em;
+}
+
+.banana-cherry-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-left: 6em; //was 5.5
+  margin-right: 14.25em; //was 10.25
+}
+.peppermint-lemon-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 14.25em;
+}
+.raspberry-peppermint-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 14.25em;
+}
+
+.names-of-gum-row2 {
+  display: flex;
+}
+.cherry-lemon-label {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:purple;
+  position:relative;
+  left: 21.25em; //this is causing page overflow
+  top: 2em;
+}
+.banana-peppermint-label {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:purple;
+  position:relative;
+  left: 28em; //this is causing page overflow
+  top: 2em;
+}
+.peppermint-cherry-label {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:purple;
+  position:relative;
+  left: 28em; //this is causing page overflow
+  top: 2em;
+}
+.bottle-images-row2 {
+  display: flex;
+  position: absolute;
+  top: 16.5em;
+}
+.cherry-lemon-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 14.25em;
+}
+.banana-peppermint-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 14.25em;
+}
+.peppermint-cherry-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 14.25em;
+}
+
+
+.add-to-cart-btn-container {
+  height: 2em;
+  position: relative;
+  border: none;
+}
+.add-to-cart-btn1 button {
+  border: none;
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#586336;
+  background-color: #FEF27E;
+  padding: 0.25em 1.5em;
+  position: absolute;
+  top: 18em;
+  left: 1.5em;
+  border-radius: 1em;
+}
+.add-to-cart-btn2 button {
+  border: none;
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#586336;
+  background-color: #FEF27E;
+  padding: 0.25em 1.5em;
+  position: absolute;
+  top: 18em;
+  left: 13.5em;
+  border-radius: 1em;
+}
+.add-to-cart-btn3 button {
+  border: none;
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#586336;
+  background-color: #FEF27E;
+  padding: 0.25em 1.5em;
+  position: absolute;
+  top: 18em;
+  left: 25.75em;
+  border-radius: 1em;
+}
+.add-to-cart-btn4 button {
+  border: none;
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#586336;
+  background-color: #FEF27E;
+  padding: 0.25em 1.5em;
+  position: absolute;
+  top: 18em;
+  left: 38em;
+  border-radius: 1em;
+}
+.add-to-cart-btn5 button {
+  border: none;
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#586336;
+  background-color: #FEF27E;
+  padding: 0.25em 1.5em;
+  position: absolute;
+  top: 18em;
+  left: 50.25em;
+  border-radius: 1em;
+}
+.add-to-cart-btn1 button:hover {
+  background-color: #D5CB35;
+  color: #6B4615;
+}
+.add-to-cart-btn2 button:hover {
+  background-color: #D5CB35;
+  color: #6B4615;
+}
+.add-to-cart-btn3 button:hover {
+  background-color: #D5CB35;
+  color: #6B4615;
+}
+.add-to-cart-btn4 button:hover {
+  background-color: #D5CB35;
+  color: #6B4615;
+}
+.add-to-cart-btn5 button:hover {
+  background-color: #D5CB35;
+  color: #6B4615;
+}
