@@ -1,8 +1,11 @@
 body {
-  background-color: orange;
+  background-color: #FF8B2C;
   block-size:1920px 1080px;
 }
 
+.home-main-title-area {
+  float: left;
+}
 .main-title {
   font-family: Nunito, Quicksand, Arial, sans-serif;
   font-size: 2em;
@@ -11,6 +14,30 @@ body {
   position:relative;
   left: 1.5em; //this is causing page overflow
   top: 1em;
+}
+
+.home-custom-made-btn1 button {
+  border: none;
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#FFFCF5;
+  background-color: #420B3B;
+  padding: 0.25em 1.5em;
+  position: relative;
+  top: 2em;
+  left: 1em;
+  border-radius: 1em;
+}
+.home-custom-made-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+
+// .home-about-us-btn1
+
+.home-products-area-top {
+  float: right;
 }
 
 .names-of-gum-row1 {

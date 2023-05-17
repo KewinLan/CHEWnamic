@@ -4,30 +4,39 @@ export default function Home() {
   return (
     <>
     <div className='first-row'>
-      <div className='main-title'>
-        Gum that changes flavour as you chew
-      </div>
-
-      <div className='names-of-gum-row1'>
-        <div className='banana-cherry-label'>
-          Banana to Cherry
+      <div className='home-main-title-area'>
+        <div className='main-title'>
+          Gum that changes flavour <br></br>as you chew
         </div>
-        <div className='peppermint-lemon-label'>
-          Peppermint to Lemon
+        <div className='home-custom-made-btn1'>
+          <button>Custom-made flavours</button>
         </div>
-        <div className='raspberry-peppermint-label'>
-          Raspberry to Peppermint
+        <div className='home-about-us-btn1'>
+          <button>About us</button>
         </div>
       </div>
-      <div className='bottle-images-row1'>
-        <div className="banana-cherry-img-link">
-          <img src="images/Banana_to_Cherry1.png" className="banana-cherry-img" alt="Orange Mango Bottle" width="460" height="460" />
+      <div className='home-products-area-top'>
+        <div className='names-of-gum-row1'>
+          <div className='banana-cherry-label'>
+            Banana to Cherry
+          </div>
+          <div className='peppermint-lemon-label'>
+            Peppermint to Lemon
+          </div>
+          <div className='raspberry-peppermint-label'>
+            Raspberry to Peppermint
+          </div>
         </div>
-        <div className="peppermint-lemon-img-link">
-          <img src="images/Pepperm_to_Lemon1.png" className="peppermint-lemon-img" alt="Apple Strawberry Bottle" width="460" height="460" />
-        </div>
-        <div className="raspberry-peppermint-img-link">
-          <img src="images/Rasp_to_Pepperm1.png" className="raspberry-peppermint-img" alt="Mango Strawberry Bottle" width="460" height="460" />
+        <div className='bottle-images-row1'>
+          <div className="banana-cherry-img-link">
+            <img src="images/Banana_to_Cherry1.png" className="banana-cherry-img" alt="Orange Mango Bottle" width="460" height="460" />
+          </div>
+          <div className="peppermint-lemon-img-link">
+            <img src="images/Pepperm_to_Lemon1.png" className="peppermint-lemon-img" alt="Apple Strawberry Bottle" width="460" height="460" />
+          </div>
+          <div className="raspberry-peppermint-img-link">
+            <img src="images/Rasp_to_Pepperm1.png" className="raspberry-peppermint-img" alt="Mango Strawberry Bottle" width="460" height="460" />
+          </div>
         </div>
       </div>
     </div>
