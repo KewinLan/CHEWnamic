@@ -3,51 +3,88 @@
   padding-bottom: 1em;
   // box-shadow: 0px 1px 15px black;
   // z-index: 1;
+  position: fixed;
+  bottom: 0em;
+  width:100%;
 }
 
 
-.logo-text1 {
+#footer-row {
+  display:inline-block
+}
+#footer-year {
+  display:table-cell;
+  background-color:red;
+  width:6em;
+}
+#logo-text1 {
+  display:table-cell;
+  background-color:orange;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-weight: ExtraBold;
   margin-left: 1em;
   // margin-bottom: -3em;
-  position: relative;
-  top:0.5em;
+  // position: relative;
+  // top:0.5em;
   font-size:2.25em;
-  float: left;
+  // float: left;
+  width: 3em;
 }
-.logo-text1:link {
+#logo-text1:link {
   color: #FFFCF5;
 }
-.logo-text1:visited {
+#logo-text1:visited {
   color: #FFFCF5;
 }
-.logo-text1:hover {
+#logo-text1:hover {
   color: #FFFCF5;
 }
-.logo-text1:active {
+#logo-text1:active {
   color: #FFFCF5;
 }
 
-.logo-text2 {
+#logo-text2 {
   // margin-left: 1em;
   // margin-bottom: -3em;
+  display:table-cell;
+  background-color:blue;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  position: relative;
-  top:0.5em;
+  // position: relative;
+  // top:0em;
   font-size:2.25em;
+  // float: right;
+  width: 10em;
 }
-.logo-text2:link {
+#logo-text2:link {
   color: #FF8B2C;
 }
-.logo-text2:visited {
+#logo-text2:visited {
   color: #FF8B2C;
 }
-.logo-text2:hover {
+#logo-text2:hover {
   color: #FF8B2C;
 }
-.logo-text2:active {
+#logo-text2:active {
   color: #FF8B2C;
+}
+
+#footer-copyright {
+  display:table;
+  width:700px;
+  // font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  // font-size: 1em;
+  // color:Red;
+}
+
+// #bgFooterLogo {
+//   display:table-cell;
+//   background-color:blue;
+//   width:10em;
+// }
+#footer-reserved {
+  display:table-cell;
+  background-color:green;
+  width:10em;
 }
 
 
@@ -72,15 +109,5 @@
   position:absolute;
   right: 0em;
   bottom: 3em;
-  margin-right: 1em;
-}
-.copyright {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1em;
-  font-weight: bold;
-  color:red;
-  position:absolute;
-  right: 0em;
-  bottom: 1em;
   margin-right: 1em;
 }

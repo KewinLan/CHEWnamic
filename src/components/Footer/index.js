@@ -5,19 +5,23 @@ export default function Footer() {
   return (
     <>
       <div className="bgFooter">
-        <div className='footer-logo'>
-          <nav>
-            © 2023
-            <div className="bgFooterLogo">
-              <Link to="/" className='logo-text1'>
+        <div id='footer-copyright'>
+          <div id='footer-row'>
+            <nav>
+              <div id='footer-year'>
+                <p>© 2023</p>
+              </div>
+              <Link to="/" id='logo-text1'>
                 CHEW
               </Link>
-              <Link to="/" className='logo-text2'>
+              <Link to="/" id='logo-text2'>
                 namic
               </Link>
-              All Rights Reserved
-            </div>
-          </nav>
+              <div id='footer-reserved'>
+                <p>All Rights Reserved</p>
+              </div>
+            </nav>
+          </div>
         </div>
       
 
@@ -25,17 +29,14 @@ export default function Footer() {
         <div className='footer-links'>
           <div className="terms-link">
             <Link to="/terms">
-              Terms of Use
+              Legal
             </Link>
           </div>
           <div className="privacy-link">
             <Link to="/privacy">
-              Privacy Policy
+              Privacy
             </Link>
           </div>
-        </div>
-        <div className="copyright">
-          Copyright Pulpy Seed, 2023
         </div>
       </div>
     </>
