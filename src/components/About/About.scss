@@ -6,6 +6,8 @@
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
+  max-width: 90%;
+  // outline: 1px solid red;
 }
 .about-body {
   font-family: Nunito, Quicksand, Arial, sans-serif;

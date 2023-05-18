@@ -15,6 +15,7 @@ body {
   text-align: center;
   left: 1.25em; //this is causing page overflow
   top: 1em;
+  outline: 1px solid red;
 }
 
 .home-custom-made-btn1 button {
@@ -31,6 +32,8 @@ body {
   top: 2em;
   left: 1.25em;
   border-radius: 2em;
+  // max-width: 90%;
+  // outline: 1px solid red;
 }
 .home-custom-made-btn1 button:hover {
   background-color: #FFFCF5;
@@ -62,6 +65,8 @@ body {
 
 .home-products-area-top {
   float: right;
+  // max-width: 90%;
+  outline: 1px solid red;
 }
 
 
@@ -75,18 +80,22 @@ body {
 .banana-cherry-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
   margin-left: 0em; //was 5.5
-  margin-right: -4.25em; //was 10.25
+  margin-right: 4em; //was 10.25
 }
 .peppermint-lemon-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
-  margin-right: -4.25em;
+  margin-right: 4em;
 }
 .raspberry-peppermint-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
-  margin-right: -4.25em;
+  margin-right: -1.6em;
+  // max-width: 90%;
+  outline: 1px solid red;
 }
 .names-of-gum-row1 {
   display: flex;
+  // max-width: 90%;
+  outline: 1px solid red;
 }
 .banana-cherry-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -96,6 +105,7 @@ body {
   position:relative;
   left: -11em; //this is causing page overflow
   top: 8.5em;
+  outline: 1px solid red;
 }
 .peppermint-lemon-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -105,6 +115,7 @@ body {
   position:relative;
   left: -5em; //this is causing page overflow
   top: 8.17em;
+  outline: 1px solid red;
 }
 .raspberry-peppermint-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -114,6 +125,7 @@ body {
   position:relative;
   left: -1.5em; //this is causing page overflow
   top: 8.17em;
+  outline: 1px solid red;
 }
 .home-explore-btn1 button {
   border: none;
@@ -161,18 +173,24 @@ body {
   display: flex;
   position: absolute;
   top: 16.5em;
+  max-width: 90%;
+  left:1em;
+  outline: 1px solid red;
 }
 .cherry-lemon-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
   margin-right: 14.25em;
+  outline: 1px solid red;
 }
 .banana-peppermint-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
   margin-right: 14.25em;
+  outline: 1px solid red;
 }
 .peppermint-cherry-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
-  margin-right: 14.25em;
+  // margin-right: 14.25em;
+  outline: 1px solid red;
 }
 .names-of-gum-row2 {
   display: flex;
@@ -185,6 +203,7 @@ body {
   position:relative;
   left: 21.25em; //this is causing page overflow
   top: 2em;
+  outline: 1px solid red;
 }
 .banana-peppermint-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -194,6 +213,7 @@ body {
   position:relative;
   left: 28em; //this is causing page overflow
   top: 2em;
+  outline: 1px solid red;
 }
 .peppermint-cherry-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -203,6 +223,7 @@ body {
   position:relative;
   left: 28em; //this is causing page overflow
   top: 2em;
+  outline: 1px solid red;
 }
 
 
@@ -211,6 +232,8 @@ body {
   height: 2em;
   position: relative;
   border: none;
+  // max-width: 90%;
+  outline: 1px solid red;
 }
 .add-to-cart-btn4 button {
   border: none;

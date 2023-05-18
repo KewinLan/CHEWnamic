@@ -6,6 +6,8 @@
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
+  max-width: 90%;
+  // outline: 1px solid red;
 }
 .sign-in-head2 {
   font-size: 0.75em;
@@ -23,6 +25,8 @@
   left: 3em; //this is causing page overflow
   top: 2em;
   display: flex;
+  max-width: 90%;
+  // outline: 1px solid red;
 }
 .sign-up-section {
   margin-left:4em;
@@ -36,4 +40,6 @@
   left: 3em; //this is causing page overflow
   top: 2em;
   display: flex;
+  max-width: 90%;
+  // outline: 1px solid red;
 }

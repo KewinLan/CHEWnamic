@@ -18,13 +18,13 @@ export default function Home() {
       <div className='home-products-area-top'>
         <div className='gum-images-row1'>
           <div className="banana-cherry-img-link">
-            <img src="images/Banana_to_Cherry1.png" className="banana-cherry-img" alt="Orange Mango Bottle" width="460" height="460" />
+            <img src="images/Banana_to_Cherry1.png" className="banana-cherry-img" alt="Orange Mango Bottle" width="340" height="260" />
           </div>
           <div className="peppermint-lemon-img-link">
-            <img src="images/Pepperm_to_Lemon1.png" className="peppermint-lemon-img" alt="Apple Strawberry Bottle" width="460" height="460" />
+            <img src="images/Pepperm_to_Lemon1.png" className="peppermint-lemon-img" alt="Apple Strawberry Bottle" width="340" height="260" />
           </div>
           <div className="raspberry-peppermint-img-link">
-            <img src="images/Rasp_to_Pepperm1.png" className="raspberry-peppermint-img" alt="Mango Strawberry Bottle" width="460" height="460" />
+            <img src="images/Rasp_to_Pepperm1.png" className="raspberry-peppermint-img" alt="Mango Strawberry Bottle" width="340" height="260" />
           </div>
         </div>
         <div className='names-of-gum-row1'>
@@ -54,13 +54,13 @@ export default function Home() {
     </div>
       <div className='gum-images-row2'>      
         <div className="cherry-lemon-img-link">
-          <img src="images/Cherry_to_Lemon1.png" className="cherry-lemon-img" alt="Apple Grape Bottle" width="460" height="460" />
+          <img src="images/Cherry_to_Lemon1.png" className="cherry-lemon-img" alt="Apple Grape Bottle" width="340" height="260" />
         </div>
         <div className="banana-peppermint-img-link">
-          <img src="images/Banana_to_Pepperm1.png" className="banana-peppermint-img" alt="Grape Strawberry Bottle" width="460" height="460" />
+          <img src="images/Banana_to_Pepperm1.png" className="banana-peppermint-img" alt="Grape Strawberry Bottle" width="340" height="260" />
         </div>
         <div className="peppermint-cherry-img-link">
-          <img src="images/Pepperm_to_Cherry1.png" className="peppermint-cherry-img" alt="Grape Strawberry Bottle" width="460" height="460" />
+          <img src="images/Pepperm_to_Cherry1.png" className="peppermint-cherry-img" alt="Grape Strawberry Bottle" width="340" height="260" />
         </div>
       </div>
       <div className='names-of-gum-row2'>

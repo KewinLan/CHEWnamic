@@ -6,6 +6,8 @@
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
+  max-width: 90%;
+  // outline: 1px solid red;
 }
 .contact-address {
   display: flex;
@@ -16,6 +18,8 @@
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
+  max-width: 90%;
+  // outline: 1px solid red;
 }
 .contact-phone {
   display: flex;
@@ -26,6 +30,8 @@
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
+  max-width: 90%;
+  // outline: 1px solid red;
 }
 .contact-email {
   display: flex;
@@ -36,6 +42,8 @@
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
+  max-width: 90%;
+  // outline: 1px solid red;
 }
 
 .contact-bg {
