@@ -2,7 +2,7 @@
   background-color: #420B3B;
 //  background-image: url(/images/DirtTexture2_section2.png);
 //  background-position: 50%;
-  padding-bottom: 1em;
+  padding-bottom: 0em;
   // size: -10em;
 //  padding:100%;
 // margin-top: -5em;
@@ -32,10 +32,10 @@
 .logo-text1 {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-weight: ExtraBold;
-  margin-left: 1em;
+  margin-left: 0.5em;
   // margin-bottom: -3em;
   position: relative;
-  top:0.5em;
+  top:0.25em;
   font-size:2.25em;
   float: left;
 }
@@ -57,7 +57,7 @@
   // margin-bottom: -3em;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   position: relative;
-  top:0.5em;
+  top:0.25em;
   font-size:2.25em;
 }
 .logo-text2:link {
@@ -77,12 +77,12 @@
 .bgHeaderLinks {
   //  float:right;
   //  margin: 0em;
-  position: relative;
+  position: fixed;
 //  display:inline-block;
   //  right: -250%;
-  top: -2em;
+  top: 0.4em;
   //  left: 37em;
-//  left: 23em;
+  right:-0.5em;
   // right: -34.75em;
   // text-align:right;
   float: right;

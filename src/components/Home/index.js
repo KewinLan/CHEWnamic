@@ -6,7 +6,7 @@ export default function Home() {
     <div className='first-row'>
       <div className='home-main-title-area'>
         <div className='main-title'>
-          Gum that changes flavour <br></br>as you chew
+          Gum that changes<br></br>flavour as you chew
         </div>
         <div className='home-custom-made-btn1'>
           <button>Custom-made flavours</button>

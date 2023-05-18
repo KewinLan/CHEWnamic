@@ -36,7 +36,7 @@ export default function Footer() {
             <Link to="/privacy">
               Privacy
             </Link>
-          </div>
+          </div>          
         </div>
       </div>
     </>

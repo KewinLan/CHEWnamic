@@ -21,7 +21,7 @@
   font-size:1.125em;
   color: #FF8B2C;
   position: relative;
-  left: 2em;
+  left: 1em;
   top: -0.25em;
 }
 #logo-text1 {
@@ -32,7 +32,7 @@
   margin-left: 1em;
   // margin-bottom: -3em;
   position: relative;
-  left: 2em;
+  left: 1em;
   top:-0.25em;
   font-size:1.125em;
   // float: left;
@@ -58,7 +58,7 @@
   // background-color:blue;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   position: relative;
-  left: 2em;
+  left: 1em;
   top:-0.25em;
   font-size:1.125em;
   // float: right;
@@ -100,7 +100,7 @@
   font-size:1.125em;
   color: #FF8B2C;
   position: relative;
-  left: 2em;
+  left: 1.5em;
   top: -0.25em;
 }
 
@@ -114,17 +114,17 @@
 .footer-links, a:link, a:visited {
   text-decoration: none;
   font-weight: bold;
-  color:Red;
-}
-.terms-link {
-  position:absolute;
-  right: 6.5em;
-  bottom: 3em;
-  margin-right: 3em;
+  color:#FF8B2C;
 }
 .privacy-link {
-  position:absolute;
+  position:fixed;
   right: 0em;
-  bottom: 3em;
+  bottom: 0em;
   margin-right: 1em;
+}
+.terms-link {
+  position:fixed;
+  right: 0em;
+  bottom: 0em;
+  margin-right: 6.2em;
 }
