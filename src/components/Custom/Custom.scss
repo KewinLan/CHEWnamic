@@ -66,7 +66,7 @@ legend {
   // font-size: 14px;
 }
 .custom-fieldsets {
-  display: inline-block;
+  display: inline-flex;
 }
 .flavour1-fieldset {
   border-color: #420B3B;
@@ -81,7 +81,7 @@ legend {
   border-radius: 1em;
   width: 12em;
   position: relative;
-  left: 25em;
+  left: 1em;
   // float: right;
 }
 
@@ -92,6 +92,8 @@ legend {
   font-size: 1em;
   inline-size: 25em;
   line-height: 2;
+  position: relative;
+  left: 1.5em;
   text-align: center;
 }
 
@@ -106,7 +108,7 @@ legend {
     height:736px;
     position:relative;
     top:-4.5em;
-    left: 12em;
+    left: 15em;
     background-size:cover;
     z-index: -1;
 }
@@ -124,7 +126,7 @@ legend {
   line-height: 1em;
   position: relative;
   top: -7.5em;
-  left: 5.25em;
+  left: 6.5em;
   border-radius: 2em;
 }
 .custom-add-to-cart-btn1 button:hover {
@@ -145,7 +147,7 @@ legend {
   line-height: 1em;
   position: relative;
   top: -6.5em;
-  left: 4.5em;
+  left: 5.75em;
   border-radius: 2em;
 }
 .custom-premade-btn1 button:hover {
