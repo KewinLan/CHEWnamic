@@ -1,17 +1,17 @@
 .custom-title {
-  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color:#D5CB35;
+  color:#420B3B;
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
 }
 .custom-body {
-  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
-  color:#D5CB35;
+  color:#420B3B;
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
@@ -22,6 +22,60 @@
 .custom-everything {
   display: flex;
 }
+
+
+
+// div:first-of-type {
+//   display: flex;
+//   align-items: flex-start;
+//   margin-bottom: 5px;
+// }
+
+// label {
+//   margin-right: 15px;
+//   line-height: 32px;
+// }
+
+input {
+  appearance: none;
+
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+
+  border: 0.5em solid #420B3B;
+  transition: 0.2s all linear;
+  margin-right: 1em;
+
+  position: relative;
+  top: 0.5em;
+}
+
+input:checked {
+  border: 0.9em solid #420B3B;
+}
+
+button,
+legend {
+  color: #FF8B2C;
+  background-color: #420B3B;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  padding: 5px 15px;
+  border-radius: 1em;
+  border: 0;
+  // font-size: 14px;
+}
+.flavour1-fieldset {
+  border-color: #420B3B;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+
+
+
+
 
 .custom-bg {
     background-image: url('../../images/GumBoxes1.png');
@@ -34,20 +88,44 @@
     z-index: -1;
 }
 
-.view-products-btn button {
+.custom-add-to-cart-btn1 button {
   border: none;
-  font-family: Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.5em;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
   font-weight: bold;
-  color:#586336;
-  background-color: #FEF27E;
-  padding: 0.25em 1.5em;
-  position: absolute;
-  top: 25em;
-  left: 3.75em;
-  border-radius: 1em;
+  color:#FFFCF5;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 1em;
+  position: relative;
+  top: -11.25em;
+  left: 1em;
+  border-radius: 2em;
 }
-.view-products-btn button:hover {
-  background-color: #D5CB35;
-  color: #6B4615;
+.custom-add-to-cart-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+
+.custom-premade-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 1em;
+  position: relative;
+  top: -11.25em;
+  left: 1em;
+  border-radius: 2em;
+}
+.custom-premade-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
 }
