@@ -78,6 +78,7 @@ body {
   position: relative;
   top: 0em;
   right:2.5em;
+  // outline: 1px solid red;
 }
 
 .banana-cherry-img {
@@ -140,8 +141,8 @@ body {
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 9em;
-  left: -10em;
+  top: -1em;
+  left: 2em;
   border-radius: 2em;
 }
 .home-explore-btn2 button {
@@ -154,8 +155,8 @@ body {
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 7em;
-  left: 5em;
+  top: -3em;
+  left: 17.25em;
   border-radius: 2em;
 }
 .home-explore-btn3 button {
@@ -168,8 +169,8 @@ body {
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 5em;
-  left: 20em;
+  top: -5em;
+  left: 32em;
   border-radius: 2em;
 }
 
@@ -211,9 +212,9 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 1.25em; //this is causing page overflow
-  top: 2em;
-  outline: 1px solid red;
+  left: 29.5em; //this is causing page overflow
+  top: 14.5em;
+  // outline: 1px solid red;
 }
 .banana-peppermint-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -221,9 +222,9 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 8em; //this is causing page overflow
-  top: 2em;
-  outline: 1px solid red;
+  left: 35.5em; //this is causing page overflow
+  top: 14.5em;
+  // outline: 1px solid red;
 }
 .peppermint-cherry-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -231,63 +232,83 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 8em; //this is causing page overflow
-  top: 2em;
-  outline: 1px solid red;
+  left: 39.9em; //this is causing page overflow
+  top: 14.5em;
+  // outline: 1px solid red;
 }
 
 
 
-.add-to-cart-btn-container {
-  height: 2em;
+// .add-to-cart-btn-container {
+//   height: 2em;
+//   position: relative;
+//   border: none;
+//   // max-width: 90%;
+//   // outline: 1px solid red;
+// }
+.home-explore-btn4 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
   position: relative;
-  border: none;
-  // max-width: 90%;
-  outline: 1px solid red;
+  top: 14.5em;
+  left: 31.5em;
+  border-radius: 2em;
 }
-.add-to-cart-btn4 button {
-  border: none;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2em;
-  font-weight: bold;
-  color:#586336;
-  background-color: #FEF27E;
-  padding: 0.25em 1.5em;
-  position: absolute;
-  top: 8em;
-  left: 38em;
-  border-radius: 1em;
-}
-.add-to-cart-btn5 button {
+.home-explore-btn5 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2em;
+  font-size: 1.6875em;
   font-weight: bold;
-  color:#586336;
-  background-color: #FEF27E;
-  padding: 0.25em 1.5em;
-  position: absolute;
-  top: 8em;
-  left: 50.25em;
-  border-radius: 1em;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: 12.5em;
+  left: 47em;
+  border-radius: 2em;
 }
-.add-to-cart-btn1 button:hover {
-  background-color: #D5CB35;
-  color: #6B4615;
+.home-explore-btn6 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: 10.5em;
+  left: 62em;
+  border-radius: 2em;
 }
-.add-to-cart-btn2 button:hover {
-  background-color: #D5CB35;
-  color: #6B4615;
+.home-explore-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
 }
-.add-to-cart-btn3 button:hover {
-  background-color: #D5CB35;
-  color: #6B4615;
+.home-explore-btn2 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
 }
-.add-to-cart-btn4 button:hover {
-  background-color: #D5CB35;
-  color: #6B4615;
+.home-explore-btn3 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
 }
-.add-to-cart-btn5 button:hover {
-  background-color: #D5CB35;
-  color: #6B4615;
+.home-explore-btn4 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.home-explore-btn5 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.home-explore-btn6 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
 }

@@ -38,7 +38,7 @@ export default function Home() {
             Raspberry to Peppermint
           </div>
         </div>
-        <div className='home-explore-btns'>
+        <div className='home-explore-btns1'>
           <div className='home-explore-btn1'>
             <button>Explore</button>
           </div>
@@ -76,16 +76,15 @@ export default function Home() {
       </div>
       
 
-      <div className='add-to-cart-btn-container'>
-        
-        <div className='add-to-cart-btn4'>
-          <button>Add to Cart</button>
+      <div className='home-explore-btns2'>
+        <div className='home-explore-btn4'>
+          <button>Explore</button>
         </div>
-        <div className='add-to-cart-btn5'>
-          <button>Add to Cart</button>
+        <div className='home-explore-btn5'>
+          <button>Explore</button>
         </div>
-        <div className='add-to-cart-btn6'>
-          <button>Add to Cart</button>
+        <div className='home-explore-btn6'>
+          <button>Explore</button>
         </div>
       </div>
     </>
