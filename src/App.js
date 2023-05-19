@@ -1,5 +1,6 @@
 import './App.scss';
 import About from './components/About';
+import Custom from './components/Custom';
 import Cart from './components/Cart';
 import ContactUs from './components/ContactUs';
 import Home from './components/Home';
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/custom" element={<Custom />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/terms" element={<Terms />} />
