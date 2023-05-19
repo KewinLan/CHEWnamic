@@ -1,12 +1,13 @@
 .about-title {
-  font-family: Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1em;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
   font-weight: bold;
-  color:#D5CB35;
+  color:#420B3B;
   position:relative;
-  left: 3em; //this is causing page overflow
-  top: 1em;
-  max-width: 90%;
+  text-align: center;
+  left: 1.25em; //this is causing page overflow
+  top: 0.5em;
+  line-height: 1.5;
   // outline: 1px solid red;
 }
 .about-body {
@@ -17,6 +18,15 @@
   position:relative;
   left: 3em; //this is causing page overflow
   top: 1em;
+  inline-size: 16em;
+  overflow-wrap: break-word;
+}
+.about-slogan {
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color:#D5CB35;
+  position:relative;
   inline-size: 16em;
   overflow-wrap: break-word;
 }

@@ -6,16 +6,13 @@ export default function About(props) {
   return (
     <>
         <div className='about-title'>
-          <h1>About Pulpy Seed</h1>
+          <h1>Gum that changes flavour as you chew</h1>
         </div>
       <div className="about-everything">
         <div className='about-body'>
-          <p>We believe in the importance of eating healthy fruits. We also understand that a busy day means you don't have time to wash and cut a watermelon yourself, so we do for you, and squeeze it into a recyclable bottle that you can quickly pull out of your fridge. 
-          <br></br><br></br>
-
-          Pulpy Seed: Bottled Up Health!</p>
+          <p>Gum loses its flavour after several minutes of chewing. We want to prevent that from happening. We crafted a trademarked formula that causes the flavour to change after about 10 minutes of chewing. That ways, you can live dynamically!
+          </p>
         </div>
-
         <div className='about-bg'></div>
 
         </div>
