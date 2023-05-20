@@ -1,5 +1,6 @@
 .cart-everything {
-  outline: 1px solid red;
+  // outline: 1px solid red;
+  // height: 780px;
 }
 .cart-title {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -21,16 +22,18 @@
   position:relative;
   left: 1em; //this is causing page overflow
   top: -1.5em;
+  margin-bottom: -6.5em;
   // outline: 1px solid red;
 }
 .sign-up-head2 {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
   left: 1em; //this is causing page overflow
   top: -1.5em;
+  margin-bottom: -6.5em;
   // outline: 1px solid red;
 }
 
@@ -41,7 +44,7 @@
   color:#420B3B;
   position:relative;
   left: 1em;
-  top: -1.5em;
+  top: -3em;
   display: flex;
   // width: 50em;
   max-width: 50%;
@@ -49,6 +52,9 @@
 }
 .sign-up-section {
   margin-left:4em;
+  position:relative;
+  top:0em;
+  font-size: 1.125em;
   // outline: 1px solid red;
 }
 .authdetails-section {
@@ -59,7 +65,7 @@
   position:relative;
   left: 1em; //this is causing page overflow
   // top: 10em;
-  bottom: 10m;
+  // bottom: 0em;
   max-width: 50%;
   // outline: 1px solid red;
 }
