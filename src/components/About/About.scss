@@ -1,3 +1,8 @@
+// html, body {
+//   height: 100%;
+//   width: 100%; 
+//   margin: 0;
+// }
 .about-title {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-size: 1.25em;
@@ -9,6 +14,9 @@
   top: -0.5em;
   line-height: 1.5;
   // outline: 1px solid red;
+  // outline: 1px solid red;
+  max-width: 50%;
+  // outline: 10px solid red;
 }
 .about-body {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -20,7 +28,9 @@
   top: 0em;
   inline-size: 20em;
   line-height: 2;
+  max-height: 25em;
   overflow-wrap: break-word;
+  // outline: 10px solid red;
 }
 // .about-slogan {
 //   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -34,19 +44,28 @@
 
 .about-everything {
   display: flex;
+  max-height: 43em;
+  // max-height: 100%;
+  // outline: 10px solid red;
 }
 
 .about-bg {
     background-image: url('../../images/GumBoxes1.png');
-    width:1080px;
-    height:736px;
+    width:1145px;
+    height:954px;
     position:relative;
-    top:-4.5em;
-    left: 12em;
-    background-size:cover;
+    top:-8.5em;
+    left: 22em;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    // outline: 1px solid red;
     z-index: -1;
 }
 
+// .about-btns {
+  // outline: 1px solid red;
+// }
 .about-custom-made-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -58,10 +77,13 @@
   // padding-bottom: -1em;
   // margin: -1em;
   line-height: 1em;
+  white-space: nowrap;
+  // text-align: center;
   position: relative;
-  top: -11.25em;
-  left: 1em;
+  top: 10.5em;
+  left: -39.15em;
   border-radius: 2em;
+  // outline: 1px solid red;
 }
 .about-custom-made-btn1 button:hover {
   background-color: #FFFCF5;
@@ -80,9 +102,10 @@
   // margin: -1em;
   line-height: 1em;
   position: relative;
-  top: -10.25em;
-  left: 2.75em;
+  top: 11.5em;
+  left: -37.65em;
   border-radius: 2em;
+  // outline: 1px solid red;
 }
 .about-premade-btn1 button:hover {
   background-color: #FFFCF5;

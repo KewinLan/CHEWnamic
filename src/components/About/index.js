@@ -15,7 +15,6 @@ export default function About(props) {
         </div>
         <div className='about-bg'></div>
 
-      </div>
         <div className='-about-btns'>
           <Link to="/custom">
             <div className='about-custom-made-btn1'>
@@ -28,6 +27,7 @@ export default function About(props) {
             </div>
           </Link>
         </div>
+      </div>
     </>
   );
 };

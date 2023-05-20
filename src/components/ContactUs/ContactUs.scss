@@ -39,13 +39,16 @@
 
 .contact-bg {
   background-image: url('../../images/GumBoxes1.png');
-  width:1080px;
-  height:736px;
-  position:relative;
-  top:-25.5em;
-  left: 36em;
-  background-size:cover;
-  z-index: -1;
+    width:1145px;
+    height:954px;
+    position:relative;
+    top:-25.5em;
+    left: 49em;
+    background-size: 87%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    outline: 1px solid red;
+    z-index: -1;
 }
 
 
@@ -61,7 +64,7 @@
   // margin: -1em;
   line-height: 1em;
   position: relative;
-  top: -22.25em;
+  top: -25.25em;
   left: 1em;
   border-radius: 2em;
 }
