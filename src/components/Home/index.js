@@ -1,4 +1,5 @@
 import './Home.scss';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -9,10 +10,14 @@ export default function Home() {
           Gum that changes<br></br>flavour as you chew
         </div>
         <div className='home-custom-made-btn1'>
-          <button>Custom-made flavours</button>
+          <Link to="/custom">
+            <button>Custom-made flavours</button>
+          </Link>
         </div>
         <div className='home-about-us-btn1'>
-          <button>About us</button>
+          <Link to="/about">
+            <button>About us</button>
+          </Link>
         </div>
       </div>
       <div className='home-products-area-top'>

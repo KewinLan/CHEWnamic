@@ -1,13 +1,19 @@
 .sign-in-inputs input {
   width: 100%;
-  padding: 0.5em 1em;
-  margin: 0.5em 0;
+  padding: 0.5em 0.1em 0em 1em;
+  margin: 0.5em 0em 0em 0em;
   box-sizing: border-box;
-  font-family: Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1em;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.125em;
+  // line-height: 0em;
   font-weight: bold;
-  background-color:#FEF27E;
-  color: #586336;
+  color:#420B3B;
+  position:relative;
+  left: 0em; //this is causing page overflow
+  top: -1.5em;
+  // display: flex;
+  // max-width: 100%;
+  // outline: 1px solid red;
   border-radius: 1em;
   border: none;
 }
@@ -16,13 +22,19 @@
 }
 .sign-in-button button {
   border: none;
-  font-family: Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1em;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.125em;
   font-weight: bold;
-  color:#586336;
-  background-color: #FEF27E;
-  padding: 0.25em 1.5em;
-  border-radius: 1em;
+  color:#420B3B;
+  position:relative;
+  left: 0em; //this is causing page overflow
+  top: -2.75em;
+  // display: flex;
+  // max-width: 50%;
+  // outline: 1px solid red;
+  padding: 0.75em 1.5em 0.25em 1.5em;
+  line-height: 1em;
+  border-radius: 2em;
 }
 .sign-in-button button:hover {
   background-color: #D5CB35;
