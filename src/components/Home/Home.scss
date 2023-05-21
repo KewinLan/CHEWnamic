@@ -174,17 +174,29 @@ body {
   border-radius: 2em;
 }
 
+.home-bg {
+  background-image: url('../../images/GumBoxes2.png');
+  width:614px;
+  height:512px;
+  position:relative;
+  top:19.5em;
+  left: 6em;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  height: 65vh;
+  // outline: 1px solid red;
+  z-index: -1;
+}
+
 
 
 .gum-images-row2 {
   display: flex;
   position: relative;
-  top: 26em;
+  top: -13.75em;
   // max-width: 90%;
-  // left:-10em;
-
-  right:-20em;
-
+  left:47.5em;
+  // right:-20em;
 
   // outline: 1px solid red;
 }
@@ -205,6 +217,9 @@ body {
 }
 .names-of-gum-row2 {
   display: flex;
+  position: relative;
+  top: -40em;
+  left: 0.25em;
 }
 .cherry-lemon-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -256,7 +271,7 @@ body {
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 14.5em;
+  top: -9em;
   left: 31.5em;
   border-radius: 2em;
 }
@@ -270,8 +285,8 @@ body {
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 12.5em;
-  left: 47em;
+  top: -11em;
+  left: 46.75em;
   border-radius: 2em;
 }
 .home-explore-btn6 button {
@@ -284,8 +299,8 @@ body {
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 10.5em;
-  left: 62em;
+  top: -13em;
+  left: 61.5em;
   border-radius: 2em;
 }
 .home-explore-btn1 button:hover {

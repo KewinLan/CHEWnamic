@@ -57,6 +57,7 @@ export default function Home() {
         
       </div>
     </div>
+    <div className='home-bg'></div>
       <div className='gum-images-row2'>      
         <div className="cherry-lemon-img-link">
           <img src="images/Cherry_to_Lemon1.png" className="cherry-lemon-img" alt="Apple Grape Bottle" width="340" height="260" />
