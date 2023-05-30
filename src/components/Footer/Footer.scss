@@ -18,23 +18,24 @@
   // background-color:red;
   width:3.5em;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size:1.125em;
+  font-size:1em;
   color: #FF8B2C;
   position: relative;
-  left: 1em;
-  top: -0.25em;
+  left: 0.75em;
+  top: -0.5em;
 }
 #logo-text1 {
   display:table-cell;
   // background-color:orange;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-weight: ExtraBold;
+  font-weight: Bold;
+  text-decoration: none;
   margin-left: 1em;
   // margin-bottom: -3em;
   position: relative;
-  left: 1em;
-  top:-0.25em;
-  font-size:1.125em;
+  left: 0.75em;
+  top:-0.5em;
+  font-size:1em;
   // float: left;
   width: 2.5em;
 }
@@ -57,10 +58,12 @@
   display:table-cell;
   // background-color:blue;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-weight: Bold;
+  text-decoration: none;
   position: relative;
-  left: 1em;
-  top:-0.25em;
-  font-size:1.125em;
+  left: 0.75em;
+  top:-0.5em;
+  font-size:1em;
   // float: right;
   width: 3em;
 }
@@ -97,11 +100,11 @@
   // background-color:green;
   width:10em;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size:1.125em;
+  font-size:1em;
   color: #FF8B2C;
   position: relative;
-  left: 1.5em;
-  top: -0.25em;
+  left: 1em;
+  top: -0.5em;
 }
 
 
@@ -111,9 +114,9 @@
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-size: 1em;
 }
-.footer-links, a:link, a:visited {
+.footer-links, .footer-links a:link, .footer-links a:visited {
   text-decoration: none;
-  font-weight: bold;
+  // font-weight: bold;
   color:#FF8B2C;
 }
 .privacy-link {
@@ -124,7 +127,7 @@
 }
 .terms-link {
   position:fixed;
-  right: 0em;
+  right: 6em;
   bottom: 0em;
-  margin-right: 6.2em;
+  // margin-right: 2.2em;
 }
