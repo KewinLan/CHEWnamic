@@ -78,6 +78,8 @@ legend {
 }
 .custom-fieldsets {
   display: inline-flex;
+  // cursor: pointer;
+
   // outline: 1px solid red;
 }
 .flavour1-fieldset {
@@ -160,6 +162,8 @@ legend {
 .custom-add-to-cart-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
+
 }
 
 .custom-premade-btn1 button {
@@ -182,4 +186,6 @@ legend {
 .custom-premade-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
+
 }

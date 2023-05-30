@@ -31,7 +31,7 @@
   line-height: 2;
   max-height: 25em;
   overflow-wrap: break-word;
-  outline: 10px solid red;
+  // outline: 10px solid red;
 }
 // .about-slogan {
 //   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -47,7 +47,7 @@
   display: flex;
   max-height: 43em;
   // max-height: 100%;
-  outline: 10px solid red;
+  // outline: 10px solid red;
 }
 
 
@@ -77,6 +77,7 @@
 .about-custom-made-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
 
 .about-premade-btn1 button {
@@ -99,6 +100,7 @@
 .about-premade-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
 
 
@@ -107,11 +109,11 @@
   width:1145px;
   height:954px;
   position:relative;
-  // top:-3.5em;
-  // left: 22em;
-  background-size: 100%;
+  top:-3.5em;
+  left: -12em;
+  background-size:100%;
   background-repeat: no-repeat;
   // height: 90vh;
-  outline: 1px solid red;
+  // outline: 1px solid red;
   z-index: -1;
 }

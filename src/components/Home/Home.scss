@@ -40,6 +40,7 @@ body {
 .home-custom-made-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
   // border: 0.001em;
   // border-style: solid;
   // border-color: blue;
@@ -58,11 +59,14 @@ body {
   top: 3em;
   left: 5.5em;
   border-radius: 2em;
+  // outline: 1px solid red;
 }
 
 .home-about-us-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
+  // outline: 10px solid red;
 }
 
 

@@ -4,20 +4,21 @@
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 1em; //this is causing page overflow
-  top: -1.5em;
+  left: 0.75em; //this is causing page overflow
+  top: -1.25em;
   max-width: 90%;
   // outline: 1px solid red;
 }
 .terms-body {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 2em; //this is causing page overflow
+  line-height: 1.75em;
+  left: 1.5em; //this is causing page overflow
   top: -3.5em;
-  width: 103.5em;
+  width: 92.5em;
   column-count: 3;
   column-gap: 11em;
   // outline: 1px solid red;

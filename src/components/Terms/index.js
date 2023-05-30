@@ -14,7 +14,7 @@ export default function Terms() {
 
           These Terms will be applied fully and affect to your use of this Website. By using this Website, you agreed to accept all terms and conditions written in here. You must not use this Website if you disagree with any of these Terms and Conditions.<br></br><br></br>
 
-          This website and its products are provided "as is," and you agree to use and buy our products at your own risk. We are not liable for any damage, indirect or otherwise, that comes to you from your use of our website or the consumption of our products.<br></br><br></br>
+          This website and its products are provided "as is," and you agree to use and buy our products at your own risk. We are not liable for any damage, indirect or otherwise, that comes to you from your use of our website or the consumption of our products.<br></br><br></br><br></br>
 
           People below 13 years old are not allowed to use this Website.<br></br><br></br>
 

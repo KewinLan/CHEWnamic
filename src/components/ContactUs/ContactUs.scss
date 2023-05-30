@@ -4,36 +4,36 @@
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 1em; //this is causing page overflow
-  top: -1.5em;
+  left: 0.75em; //this is causing page overflow
+  top: -1.25em;
 }
 .contact-email {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
   left: 1em; //this is causing page overflow
-  top: -3.5em;
+  top: -3em;
 }
 .contact-phone {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
   left: 1em; //this is causing page overflow
-  top: -4em;
+  top: -3.25em;
 }
 .contact-times {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
   line-height: 1.5em;
   left: 1em; //this is causing page overflow
-  top: -4em;
+  top: -3.25em;
 }
 
 
@@ -42,9 +42,9 @@
     width:1145px;
     height:954px;
     position:relative;
-    top:-25.5em;
-    left: 49em;
-    background-size: 87%;
+    top:-26.5em;
+    left: 31em;
+    background-size: 75% 100%;
     background-repeat: no-repeat;
     height: 90vh;
     // outline: 1px solid red;
@@ -55,20 +55,21 @@
 .contact-products-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: bold;
   color:#FF8B2C;
   background-color: #420B3B;
-  padding: 0.75em 1em 0.25em 1em;
+  padding: 1em 1em 0.55em 1em;
   // padding-bottom: -1em;
   // margin: -1em;
-  line-height: 1em;
+  line-height: 0em;
   position: relative;
-  top: -25.25em;
-  left: 1em;
+  top: -22.25em;
+  left: 1.75em;
   border-radius: 2em;
 }
 .contact-products-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
