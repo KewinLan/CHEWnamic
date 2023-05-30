@@ -4,8 +4,8 @@
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 1em; //this is causing page overflow
-  top: -1.5em;
+  left: 0.75em; //this is causing page overflow
+  top: -1.25em;
   max-width: 50%;
   // outline: 1px solid red;
 }
@@ -15,7 +15,7 @@
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 0.75em; //this is causing page overflow
+  left: 0.5em; //this is causing page overflow
   top: -2em;
   inline-size: 16em;
   overflow-wrap: break-word;
@@ -69,7 +69,8 @@ legend {
   background-color: #420B3B;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-size: 1em;
-  padding: 0.5em 1em 0em 1em;
+  line-height: 0em;
+  padding: 1em 1em 0.5em 1em;
   border-radius: 1em;
   // border: 2em;
   // font-size: 14px;
@@ -84,6 +85,7 @@ legend {
   border-style: solid;
   border-radius: 1em;
   width: 12em;
+  line-height: 1.5em;
   // float: left;
 }
 .flavour2-fieldset {
@@ -93,6 +95,7 @@ legend {
   width: 12em;
   position: relative;
   left: 1em;
+  line-height: 1.5em;
   // float: right;
   // outline: 1px solid red;
 }
@@ -106,6 +109,7 @@ legend {
   line-height: 2;
   position: relative;
   left: 1.5em;
+  top: -0.25em;
   text-align: center;
   // outline: 1px solid red;
 }
@@ -120,8 +124,8 @@ legend {
   width:1145px;
   height:954px;
   position:relative;
-  top:-8.6em;
-  left: 25.3em;
+  top:-7.6em;
+  left: 21.3em;
   background-size: 95%;
   background-repeat: no-repeat;
   max-width: 55%;
@@ -139,7 +143,7 @@ legend {
 .custom-add-to-cart-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#FFFCF5;
   background-color: #420B3B;
@@ -148,8 +152,8 @@ legend {
   // margin: -1em;
   line-height: 1em;
   position: relative;
-  top: -1.75em;
-  left: 6.5em;
+  top: -1.25em;
+  left: 11.5em;
   border-radius: 2em;
   // outline: 1px solid red;
 }
@@ -161,7 +165,7 @@ legend {
 .custom-premade-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#FF8B2C;
   background-color: #420B3B;
@@ -170,8 +174,8 @@ legend {
   // margin: -1em;
   line-height: 1em;
   position: relative;
-  top: -0.75em;
-  left: 5.75em;
+  top: -0.25em;
+  left: 10.75em;
   border-radius: 2em;
   // outline: 1px solid red;
 }
