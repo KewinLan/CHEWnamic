@@ -2,7 +2,7 @@
   background-color: #420B3B;
 //  background-image: url(/images/DirtTexture2_section2.png);
 //  background-position: 50%;
-  padding-bottom: 0em;
+  padding-bottom: 1.5em;
   // size: -10em;
 //  padding:100%;
 // margin-top: -5em;
@@ -32,11 +32,12 @@
 .logo-text1 {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-weight: ExtraBold;
-  margin-left: 0.5em;
-  // margin-bottom: -3em;
+  margin-left: 0.4em;
+  margin-bottom: -3em;
   position: relative;
-  top:0.25em;
-  font-size:2.25em;
+  line-height: 0em;
+  top:1em;
+  font-size:2em;
   float: left;
 }
 .logo-text1:link {
@@ -56,9 +57,12 @@
   // margin-left: 1em;
   // margin-bottom: -3em;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  margin-bottom: -3em;
   position: relative;
-  top:0.25em;
-  font-size:2.25em;
+  line-height: 0em;
+  top:0.48em;
+  left: 3em;
+  font-size:2em;
 }
 .logo-text2:link {
   color: #FF8B2C;
@@ -80,7 +84,7 @@
   position: fixed;
 //  display:inline-block;
   //  right: -250%;
-  top: 0.4em;
+  top: 0em;
   //  left: 37em;
   right:-0.5em;
   // right: -34.75em;
@@ -88,7 +92,7 @@
   float: right;
   // margin:0px auto 0px auto;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: normal;
   //  box-shadow: none !important;
   //  text-decoration: none; //this does not work
