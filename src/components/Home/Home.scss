@@ -8,12 +8,12 @@ body {
 }
 .main-title {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
   text-align: center;
-  left: 1.25em; //this is causing page overflow
+  left: 0.5em; //this is causing page overflow
   top: 0.5em;
   line-height: 1.5;
   // outline: 1px solid red;
@@ -22,17 +22,17 @@ body {
 .home-custom-made-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: bold;
   color:#FFFCF5;
   background-color: #420B3B;
   padding: 0.75em 1em 0.25em 1em;
   // padding-bottom: -1em;
   // margin: -1em;
-  line-height: 1em;
+  line-height: 0.5em;
   position: relative;
-  top: 2em;
-  left: 1.25em;
+  top: 1.5em;
+  left: 0.4em;
   border-radius: 2em;
   // max-width: 90%;
   // outline: 1px solid red;
@@ -48,15 +48,15 @@ body {
 .home-about-us-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.6875em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#FF8B2C;
   background-color: #420B3B;
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 3.7em;
-  left: 6.5em;
+  top: 3em;
+  left: 5.5em;
   border-radius: 2em;
 }
 
@@ -76,7 +76,7 @@ body {
 .gum-images-row1 {
   display: flex;
   position: relative;
-  top: 0em;
+  top: 0.75em;
   right:2.5em;
   // outline: 1px solid red;
 }
@@ -84,11 +84,11 @@ body {
 .banana-cherry-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
   // margin-left: 0em; //was 5.5
-  margin-right: 4em; //was 10.25
+  margin-right: 3em; //was 10.25
 }
 .peppermint-lemon-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
-  margin-right: 4em;
+  margin-right: 3em;
 }
 .raspberry-peppermint-img {
   filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
@@ -103,74 +103,74 @@ body {
 }
 .banana-cherry-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.6875em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 1em; //this is causing page overflow
-  top: -0.5em;
+  left: 0.25em; //this is causing page overflow
+  top:0em;
   // outline: 1px solid red;
 }
 .peppermint-lemon-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 6.75em; //this is causing page overflow
-  top: -0.5em;
+  left: 5em; //this is causing page overflow
+  top: 0em;
   // outline: 1px solid red;
 }
 .raspberry-peppermint-label {
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 11em; //this is causing page overflow
-  top: -0.5em;
+  left: 7.75em; //this is causing page overflow
+  top: 0em;
   // outline: 1px solid red;
 }
 .home-explore-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.6875em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#FF8B2C;
   background-color: #420B3B;
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: -1em;
-  left: 2em;
+  top: -0.75em;
+  left: 1.25em;
   border-radius: 2em;
 }
 .home-explore-btn2 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.6875em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#FF8B2C;
   background-color: #420B3B;
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: -3em;
-  left: 17.25em;
+  top: -2.75em;
+  left: 15em;
   border-radius: 2em;
 }
 .home-explore-btn3 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.6875em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#FF8B2C;
   background-color: #420B3B;
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: -5em;
-  left: 32em;
+  top: -4.75em;
+  left: 28em;
   border-radius: 2em;
 }
 
