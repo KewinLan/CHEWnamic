@@ -13,7 +13,7 @@ body {
   color:#420B3B;
   position:relative;
   text-align: center;
-  left: 0.5em; //this is causing page overflow
+  left: 0.5em;
   top: 0.5em;
   line-height: 1.5;
   // outline: 1px solid red;
@@ -111,7 +111,7 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 0.25em; //this is causing page overflow
+  left: 0.25em;
   top:0em;
   // outline: 1px solid red;
 }
@@ -121,7 +121,7 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 5em; //this is causing page overflow
+  left: 5em;
   top: 0em;
   // outline: 1px solid red;
 }
@@ -131,7 +131,7 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 7.75em; //this is causing page overflow
+  left: 7.75em;
   top: 0em;
   // outline: 1px solid red;
 }
@@ -188,7 +188,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   // height: 65vh;
-  outline: 1px solid red;
+  // outline: 1px solid red;
   z-index: -1;
 }
 
@@ -231,7 +231,7 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 29.5em; //this is causing page overflow
+  left: 29.5em;
   top: 14.5em;
   // outline: 1px solid red;
 }
@@ -241,7 +241,7 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 34.25em; //this is causing page overflow
+  left: 34.25em;
   top: 14.5em;
   // outline: 1px solid red;
 }
@@ -251,20 +251,14 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 37.75em; //this is causing page overflow
+  left: 37.75em;
   top: 14.5em;
   // outline: 1px solid red;
 }
 
 
 
-// .add-to-cart-btn-container {
-//   height: 2em;
-//   position: relative;
-//   border: none;
-//   // max-width: 90%;
-//   // outline: 1px solid red;
-// }
+
 .home-explore-btn4 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
@@ -310,24 +304,30 @@ body {
 .home-explore-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
 .home-explore-btn2 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
 .home-explore-btn3 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
 .home-explore-btn4 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
 .home-explore-btn5 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }
 .home-explore-btn6 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
+  cursor: pointer;
 }

@@ -4,7 +4,7 @@
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 0.75em; //this is causing page overflow
+  left: 0.75em;
   top: -1.25em;
   max-width: 50%;
   // outline: 1px solid red;
@@ -15,7 +15,7 @@
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: 0.5em; //this is causing page overflow
+  left: 0.5em;
   top: -2em;
   inline-size: 16em;
   overflow-wrap: break-word;
@@ -32,17 +32,6 @@
 
 
 
-
-// div:first-of-type {
-//   display: flex;
-//   align-items: flex-start;
-//   margin-bottom: 5px;
-// }
-
-// label {
-//   margin-right: 15px;
-//   line-height: 32px;
-// }
 
 input {
   appearance: none;

@@ -1,32 +1,9 @@
 .bgHeader {
   background-color: #420B3B;
-//  background-image: url(/images/DirtTexture2_section2.png);
-//  background-position: 50%;
   padding-bottom: 1.5em;
-  // size: -10em;
-//  padding:100%;
-// margin-top: -5em;
-//  position:relative;
-//  top:4.5em;
-  //left:-1.5em;
-//  overflow: none;
-  //position: relative;
-  //position: 0px 0px 0px 200px;
-//  padding-right: 100%;
-  //  position:relative;
-  //  object-position: 100% -201px;
-  //  background-size:cover;
-  //display:inline-block;
   box-shadow: 0px 1px 15px black;
-  //box-sizing: border-box;
-  //flex: 1;
-  //width: 1920px;
   z-index: 1;
-  // outline: 1px solid red;
 }
-// .bgHeaderShadow {
-//   box-shadow: inset 0px 5px 5px black !important;
-// }
 
 
 .logo-text1 {
@@ -97,10 +74,6 @@
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-size: 1.75em;
   font-weight: normal;
-  //  box-shadow: none !important;
-  //  text-decoration: none; //this does not work
-  //  border-bottom: none;
-  //  bottom: -0.1em;
   display: flex;
   // margin-right: em;
 }
@@ -110,18 +83,15 @@
 }
 .bgHeaderHome {
   margin-right:1em;
-//  text-decoration: none !important;
 }
 // .bgHeaderProducts {
 //   margin-right:1em;
 // }
 .bgHeaderAbout {
   margin-right:1em;
-//  text-decoration: none !important;
 }
 .bgHeaderCustom {
   margin-right:1em;
-//  text-decoration: none !important;
 }
 .bgHeaderCartIcon {
   margin-right:0.3em;
@@ -139,5 +109,4 @@
 }
 .bgHeaderContact{
   margin-right:1em;
-//  text-decoration: none !important;
 }
