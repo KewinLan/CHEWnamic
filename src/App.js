@@ -35,3 +35,5 @@ export default App;
 //The images should be 332 by 245 px. Divide the number by 0.7225
 
 //Colors:  brown #8C422D  purple #420B3B  white #FFFCF5  orange #FF8B2C
+
+//v029 3 Aug 2023 2:03 pm: I had to do a git pull (likely because I manually updated the README on 30 May). Today I am working on changing it to a mobile-first website
