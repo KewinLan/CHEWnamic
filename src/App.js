@@ -37,3 +37,4 @@ export default App;
 //Colors:  brown #8C422D  purple #420B3B  white #FFFCF5  orange #FF8B2C
 
 //v029 3 Aug 2023 2:03 pm: I had to do a git pull (likely because I manually updated the README on 30 May). Today I am working on changing it to a mobile-first website
+//v030 4 Aug 11 pm: continue working on mobile version
