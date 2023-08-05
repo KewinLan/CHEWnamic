@@ -101,10 +101,10 @@ export default function Home() {
       </div>
 
       <div className='home-custom-made-btn-mobile'>
-          <Link to="/custom">
-            <button>Custom-made flavours</button>
-          </Link>
-        </div>
+        <Link to="/custom">
+          <button>Custom-made flavours</button>
+        </Link>
+      </div>
     </>
   );
 };
