@@ -42,6 +42,6 @@ export default App;
 //v031 5 Aug 10:46 am: mobile home page not tall enough, so elements are falling off the page
 //v032 9:52 pm: footer is not fixed, things are still going off page.
 //v033 6 Aug ~5pm: no tutorial seems to be working, revert back and try something else
+  //I can now scroll to the bottom. In the App.scss, remove the html's overflow, and add that to a @media instead (mobile should not have the overflow hidden)
 //v034 7 Aug 11:22 pm: bottom button's margin not working
-
-//I can now scroll to the bottom. In the App.scss, remove the html's overflow, and add that to a @media instead (mobile should not have the overflow hidden)
+//v035 8 Aug 4:12 pm: I added a null div to help separate the button from the footer

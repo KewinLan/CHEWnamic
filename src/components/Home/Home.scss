@@ -393,6 +393,7 @@ body {
   font-weight: bold;
   color:#FFFCF5;
   background-color: #420B3B;
+  // height: 10em;
   padding: 1em 1em 0.5em 1em;
   // padding-bottom: -1em;
   margin: 0em 0em 10em 0em;
@@ -402,7 +403,7 @@ body {
   left: 1.4em;
   border-radius: 2em;
   // max-width: 90%;
-  outline: 10px solid red;
+  // outline: 10px solid red;
 }
 .home-custom-made-btn-mobile button:hover {
   background-color: #FFFCF5;
@@ -411,6 +412,14 @@ body {
   // border: 0.001em;
   // border-style: solid;
   // border-color: blue;
+}
+
+.move-footer-lower {
+  visibility: hidden;
+  position: relative;
+  top: 135em;
+  left: 1.4em;
+  // outline: 1000px solid red;
 }
 
 @media screen and (min-width: 361px) {

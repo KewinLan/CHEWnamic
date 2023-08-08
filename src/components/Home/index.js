@@ -105,6 +105,10 @@ export default function Home() {
           <button>Custom-made flavours</button>
         </Link>
       </div>
+
+      <div className='move-footer-lower'>
+        <p>.</p>
+      </div>
     </>
   );
 };
