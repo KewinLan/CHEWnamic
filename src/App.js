@@ -5,7 +5,7 @@ import Cart from './components/Cart';
 import ContactUs from './components/ContactUs';
 import Home from './components/Home';
 import { Route, Routes } from 'react-router-dom';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Terms from './components/Terms';
 import Privacy from './components/Privacy';
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -41,4 +41,7 @@ export default App;
 //v030 4 Aug 11 pm: continue working on mobile version
 //v031 5 Aug 10:46 am: mobile home page not tall enough, so elements are falling off the page
 //v032 9:52 pm: footer is not fixed, things are still going off page.
-//v033 6 Aug 5:04 pm: no tutorial seems to be working, revert back and try something else
+//v033 6 Aug ~5pm: no tutorial seems to be working, revert back and try something else
+//v034 7 Aug 11:22 pm: bottom button's margin not working
+
+//I can now scroll to the bottom. In the App.scss, remove the html's overflow, and add that to a @media instead (mobile should not have the overflow hidden)

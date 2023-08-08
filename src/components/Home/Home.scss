@@ -1,28 +1,8 @@
-// html { //added from tutorial on how to make footer fixed
-//   height: 100%;
-// }
-
 body {
   background-color: #FF8B2C;
   block-size:1920px 1080px;
-
-  // position: relative; //2nd footer tutorial
-  // margin: 0; //2nd footer tutorial
-  // min-height: 100%; //2nd footer tutorial
-  // padding-bottom: 6.74rem; //2nd footer tutorial
-  // box-sizing: inherit; //2nd footer tutorial
-
-  // min-height: 100%; //added from tutorial on how to make footer fixed
-
-  // display: flex; //added from tutorial on how to make footer fixed
-  // flex-direction: column; //added from tutorial on how to make footer fixed
+  // height: 20000px;
 }
-
-// footer { //added from tutorial on how to make footer fixed
-  // margin-top: auto;
-// }
-
-
 
 .home-main-title-area {
   float: left;
@@ -322,8 +302,8 @@ body {
   font-weight: bold;
   color:#420B3B;
   position:relative;
-  left: -1.75em;
-  top: 84.5em;
+  left: -12.25em;
+  top: 113em;
   // outline: 100px solid red;
 }
 
@@ -370,8 +350,8 @@ body {
   padding: 0.75em 1em 0.25em 1em;
   line-height: 1em;
   position: relative;
-  top: 60.5em;
-  left: 5.25em;
+  top: 91.25em;
+  left: 5em;
   border-radius: 2em;
   // outline: 100px solid red;
 }
@@ -415,14 +395,14 @@ body {
   background-color: #420B3B;
   padding: 1em 1em 0.5em 1em;
   // padding-bottom: -1em;
-  // margin: -1em;
+  margin: 0em 0em 10em 0em;
   line-height: 0.5em;
   position: relative;
-  top: 60em;
-  left: 0.4em;
+  top: 95em;
+  left: 1.4em;
   border-radius: 2em;
   // max-width: 90%;
-  // outline: 1px solid red;
+  outline: 10px solid red;
 }
 .home-custom-made-btn-mobile button:hover {
   background-color: #FFFCF5;
