@@ -45,3 +45,6 @@ export default App;
   //I can now scroll to the bottom. In the App.scss, remove the html's overflow, and add that to a @media instead (mobile should not have the overflow hidden)
 //v034 7 Aug 11:22 pm: bottom button's margin not working
 //v035 8 Aug 4:12 pm: I added a null div to help separate the button from the footer
+//v036 9 Aug 8:36 pm: I added a cart icon in mobile
+
+//https://www.youtube.com/watch?v=tEMrD9t85v4

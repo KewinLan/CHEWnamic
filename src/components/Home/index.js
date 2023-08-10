@@ -1,5 +1,6 @@
 import './Home.scss';
 import { Link } from 'react-router-dom';
+import { PRODUCTS } from '../../products';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
           <div className="banana-cherry-img-link">
             <img src="images/Banana_to_Cherry1.png" className="banana-cherry-img" alt="Orange Mango Bottle" width="320" height="248" />
             {/* for desktop this should be width="272" height="208" */}
+            {PRODUCTS.id}
           </div>
           <div className="peppermint-lemon-img-link">
             <img src="images/Pepperm_to_Lemon1.png" className="peppermint-lemon-img" alt="Apple Strawberry Bottle" width="320" height="248" />

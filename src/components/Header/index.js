@@ -3,7 +3,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
 
-
 export default function Header() {
   return (
     <>
@@ -15,6 +14,13 @@ export default function Header() {
             </Link>
             <Link to="/" className='logo-text2'>
               namic
+            </Link>
+          </div>
+          <div className="bgHeaderCart-mobile1">
+            <Link to="/cart">
+              <div className="bgHeaderCartIcon-mobile1">
+                <FaShoppingCart size={30}/>
+              </div>
             </Link>
           </div>
           <div className="bgHeaderLinks">
